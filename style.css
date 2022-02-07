@@ -282,9 +282,9 @@ section{
 }
 .box{
     height: 410px;
-    width: 350px;
+    width: 23%;
     float: left;
-    margin: 9px;
+    margin: 1%;
     padding: 20px 10px 10px 15px;
     background-color: white;
 }
