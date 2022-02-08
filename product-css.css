@@ -22,7 +22,7 @@ hr{
     margin: 1px auto;
 }
 .first-child{
-    width: 490px;
+    width: 38%;
     height: 475px;
     float: left;
     margin: 15px;
@@ -46,7 +46,7 @@ hr{
     float: left;
 }
 .right-part{
-    width: 430px;
+    width: calc(100% - 12%);
     height: 466px;
     float: left;
 }
@@ -54,10 +54,9 @@ hr{
     width: 425px;
 }
 .first-content{
-    width: 38px;
+    width: 80%;
     height: 50px;
-    padding: 0px;
-    margin-top: 6px;
+    margin: 6px auto;
     padding-top: 5px;
     border: 0.1px solid black;
 }
