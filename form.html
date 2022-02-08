@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto&family=Sacramento&display=swap" rel="stylesheet">
+    <title>Form Page</title>
+</head>
+<body>
+    <div class="form">
+        <div class="header">
+            <span>Your Account</span><i class="fa fa-angle-right" aria-hidden="true"></i><span>Your Addresses</span><i class="fa fa-angle-right" aria-hidden="true"></i><span style="color: #c45500;">New Address</span>
+            <h1>Add a new address</h1>
+        </div>
+        <form action="">
+            <label>Country/Region</label><br>
+            <select name="" id="">
+                <option value="">India</option>
+                <option value="">Pakistan</option>
+                <option value="">Bangladesh</option>
+                <option value="">Srilanka</option>
+                <option value="">Bhutan</option>
+            </select> <br>
+            <label>Full name</label><br>
+            <input type="text">
+            <label>Mobile number</label><br>
+            <input type="text" maxlength="10">
+            <label>Pincode</label><br>
+            <input type="text" placeholder="6 digits [0-9] PIN code">
+            <label>Flat, House no., Building, Company, Apartment</label><br>
+            <input type="text">
+            <label>Area, Street, Sector, Village</label><br>
+            <input type="text">
+            <label>Landmark</label><br>
+            <input type="text" placeholder="E.g. near apollo hospital">
+            <label for="">Town/City</label>
+            <label for="">State</label> <br>
+            <input type="text" class="small">
+            <select name="" id="" class="small">
+                <option value="">Choose a state</option>
+                <option value="">U.P</option>
+                <option value="">U.K</option>
+                <option value="">M.P</option>
+            </select> <br>
+            <input type="checkbox" class="check">
+            <label for="">Make this my default address</label>
+            <h3>Add delivery instructions</h3>
+            <p>Preferences are used to plan your delivery. However, shipments can sometimes arrive early or later than planned.</p>
+            <label for="">Address Type</label> <br>
+            <select name="" id="">
+                <option value="">Select an Address Type</option>
+            </select>
+            <button class="small-btn">Add adress</button>
+        </form>
+       
+    </div>
+</body>
+</html>

@@ -288,14 +288,18 @@ section{
     padding: 20px 10px 10px 15px;
     background-color: white;
 }
+.box-ad{
+    background: center;
+    padding: 1px;
+}
 .content{
     width: 103%;
     float: left;
     margin-top: 12px;
 }
 .small-images{
-    height: 100px;
-    width: 151px;
+    height: auto;
+    width: 45%;
     margin-right: 11px;
    
 }
