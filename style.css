@@ -293,14 +293,13 @@ section{
     padding: 1px;
 }
 .content{
-    width: 103%;
+    width: 45%;
     float: left;
-    margin-top: 12px;
+    margin: 10px 5px 5px 8px;
 }
 .small-images{
     height: auto;
-    width: 45%;
-    margin-right: 11px;
+    width: 100%;
    
 }
 .content h2{
@@ -309,11 +308,9 @@ section{
 }
 .content p{
     font-size: 12px;
-    opacity: 0.8;
-    margin-left: 10px;
-    display: inline-block;
-    margin-right: 14px;
-    width: 133px;
+    line-height: 18px;
+    margin-left: 0px;
+    width: 100%;
 }
 .section-parts a{
     text-decoration: none;
@@ -321,16 +318,34 @@ section{
     margin: 10px;
     font-size: 13px;
     display: inline-block;
-    margin-top: 24px;
+    margin-top: 10%;
     font-weight: 600;
 }
+.mid-size-section a{
+margin-top: 1%;
+}
+.small-size-section a{
+    margin-top: 1%;
+}
+.large-content a{
+    margin-top: 3%;
+}
+.large-content{
+    width: 100%;
+    margin-top: 2%;
+}
+.large-content-p{
+   width: 98%;
+    margin-top: 15px;
+}
+
 .section-parts a:hover{
     text-decoration: underline;
     color: #c7511f;
     
 }
 .large-images{
-    width: 317px;
+    width: 100%;
 }
 .upper-box{
     width: 345px;
@@ -409,14 +424,16 @@ section{
     margin: 20px auto;
 }
 .toy{
-    height: 150px;
-    margin-left: 26px;
+    width: 98%;
+    margin: auto;
 }
-#toy4{
-    margin-left:69px;
+.kaanta{
+    width: 21%;
+    margin-left: 14%;
 }
-#toy3{
-    margin-left: 45px;
+.color{
+    width: 30%;
+    margin-left: 11%;
 }
 #smallbox23{
     width: 232px;
@@ -444,12 +461,10 @@ section{
 .large-p{
     font-size: 15px;
     line-height: 20px;
-    position: relative;
-    top: 52px;
 }
 .small-p{
-    position: relative;
-    top: 64px;
+    line-height: 20px;
+    margin-top: 5%;
     font-size: 15px;
 }
 .small-p .discount{
