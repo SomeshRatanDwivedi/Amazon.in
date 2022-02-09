@@ -14,7 +14,7 @@ hr{
     width: 100%;
     border-bottom: none;
     border: 0.1px solid rgb(233 231 231);
-    margin: auto;
+    margin:1% auto;
 }
 .parent{
     width: 1285px;
@@ -25,20 +25,18 @@ hr{
     width: 38%;
     height: 475px;
     float: left;
-    margin: 15px;
 
 }
 .second-child{
-    width: 455px;
+    width: 38%;
     height: 520px;
     float: left;
-    margin: 15px 15px 15px 0px;
 }
 .third-child{
-    width: 278px;
+    width: 20%;
     height: 173px;
     float: left;
-    margin: 15px 15px 15px 0px;
+    margin-left: 4%;
 }
 .left-part{
     width: 50px;

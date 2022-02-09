@@ -312,6 +312,10 @@ section{
     margin-left: 0px;
     width: 100%;
 }
+.Weighing{
+    float: none;
+    margin: 1px auto;
+}
 .section-parts a{
     text-decoration: none;
     color: #077472;
@@ -327,7 +331,7 @@ margin-top: 1%;
 .small-size-section a{
     margin-top: 1%;
 }
-.large-content a{
+.large-content-a{
     margin-top: 3%;
 }
 .large-content{
@@ -373,10 +377,10 @@ margin-top: 1%;
     margin: 9px;
     padding: 0px 10px 10px 15px;
 }
-#lower-a-1{
+.lower-a-1{
     margin-top: 50px;
 }
-#lower-a-2{
+.lower-a-2{
     margin-top: 50px;
 }
 .mid-size-section{
@@ -395,10 +399,10 @@ margin-top: 1%;
     height: 133px;
     margin-bottom: 68px;
 }
-#pillow{
+.pillow{
     width: 282px;
 }
-#vitamin{
+.vitamin{
     width: 240px;
 }
 .ladies-image{
@@ -415,7 +419,7 @@ margin-top: 1%;
 .section-7-img{
     width: 262px;
 }
-#earfone{
+.earfone{
     width: 135px;
     margin-left: 35px;
 }
@@ -435,28 +439,27 @@ margin-top: 1%;
     width: 30%;
     margin-left: 11%;
 }
-#smallbox23{
+.smallbox23{
     width: 232px;
     margin-top: 25px;
 }
 .small-box-1{
     width: 150px;
 }
-#smallbox1{
+.smallbox1{
     width: 241px;
 }
-#smallbox2{
+.smallbox2{
     width: 200px;
 }
-#smallbox3{
+.smallbox3{
     width: 224px;
 }
-#smallbox4{
+.smallbox4{
     width: 100px;
 }
-#weighing{
-    width: 146px;
-    margin-left: 93px;
+h2{
+    line-height: 27px;
 }
 .large-p{
     font-size: 15px;
@@ -735,5 +738,8 @@ footer{
 .signature a:hover{
     text-decoration: underline;
     border: none;
+}
+.inline-css{
+    margin-top: 50px;
 }
 
