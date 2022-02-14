@@ -15,6 +15,9 @@ a{
     color: white;
     text-decoration: none;
 }
+header{
+    position: relative;
+}
 /*************************************Upper-Navbar********************************/
 .upper-header{
     background-color: #131921;
@@ -202,6 +205,9 @@ input{
     display: inline-block;
     margin-left: 1px;
 }
+.lower-header-a:hover{
+    cursor: pointer;
+}
 .lower-all{
         width: 50px;
         padding: 5px 7px;
@@ -258,12 +264,115 @@ input{
     width: 343px;
     float: left;
 }
+/********************************************Letf-Navbar*******************************************************/
+.left-navbar-container{
+    width: 0;
+    position: fixed;
+    height: 100%;
+    top: -3px;
+    left: 0;
+    z-index: 1;
+    overflow-y: scroll;
+    transition: 0.3s;
+    
+}
+.mid-content{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: -5px;
+}
+.left-navbar-content{
+    width: 100%;
+    float: left;
+    height: 100%;
+}
+.left-navbar-cross{
+    width: 0;
+    z-index: -1;
+    position: absolute;
+    left: 378px;
+    color: black;
+    text-align: center;
+    font-size: 31px;
+    top: 15px;
+}
+.main{
+    background-color: black;
+}
+.li-h{
+    padding: 0;
+}
+h3{
+    margin: 5px auto;
+}
+.left-navbar-cross:hover{
+    cursor: pointer;
+}
+
+.left-navbar-header{
+    width: 100%;
+    height: 50px;
+    background-color: #232f3e;
+    padding: 12px 0px 5px 32px;
+}
+.fa-user{
+    margin-right: 10px;
+}
+.mid-content ul{
+    width: 100%;
+    margin: 5px 0 5px 0;
+}
+.mid-content ul li{
+    width: 100%;
+    height: 50px;
+    padding-left: 10%;
+    padding-top: 4%;
+    color: black;
+}
+.fa-chevron-right{
+    opacity: 0.4;
+    float: right;
+}
+.fa-chevron-down{
+    opacity: 0.4;
+    margin-left: 5px;
+}
+.mid-content ul li a{
+    color: black;
+}
+.mid-content ul li a:hover{
+    border: none;
+}
+.mid-content ul li:hover{
+    cursor: pointer;
+    background-color: #d5d3d3;
+} 
+
 /*********************************************Section****************************************/
 .first-div-img{
     width: 100%;
 }
 section{
     background-color: #EEEEEE;
+}
+.section{
+    position: relative;
+}
+.first-child{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 440px;
+    padding: 0px 6px;
+    padding-left: 11px;
+    color: #131921;
+}
+.second-child{
+    width: 99%;
+    margin: 4% auto;
+    margin-bottom: 1%;
+
 }
 .section1{
     padding: 0 10px;
@@ -278,7 +387,7 @@ section{
     padding: 0px 6px;
     padding-left: 11px;
     color: #131921;
-    margin-top: 10px;
+    margin-top: 1%;
 }
 .box{
     height: 410px;
@@ -426,6 +535,7 @@ margin-top: 1%;
 .add{
     width: 65%;
     margin: 20px auto;
+    margin-bottom: -8px;
 }
 .toy{
     width: 98%;
@@ -742,4 +852,47 @@ footer{
 .inline-css{
     margin-top: 50px;
 }
+.slide-show-container{
+    width: 100%;
+    position: relative;
+
+}
+.slide-img{
+    display: none;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 49px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    height: 42%;
+    width: 5%;
+    text-align: center;
+    padding-top: 8%;
+}
+.next a{
+    color: black;
+}
+.prev a{
+    color: black;
+}
+.prev a:hover{
+    border: 0;
+}
+.next a:hover{
+    border: 0;
+}
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    border: 1px solid white;
+  }
 
