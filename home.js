@@ -48,3 +48,28 @@ function openCross()
     cross.style.zIndex="-1";
     leftNav.style.width="0";
 }
+var slideIndex2=0;
+showSlideIndex2(slideIndex2);
+function plusSlides2(n){
+    slideIndex2+=n;
+    showSlideIndex2(slideIndex2);
+}
+function showSlideIndex2(n)
+{
+    var display=document.getElementsByClassName("side-bar-2");
+   
+    if(n==display.length)
+    {
+        slideIndex2=0;
+    }
+    if(n<0)
+    {
+       slideIndex2=display.length-1;
+    }
+    for(var i=0; i<display.length; i++)
+    {
+        display[i].style.display="none";
+    }
+    display[slideIndex2].style.display="block";
+    
+}

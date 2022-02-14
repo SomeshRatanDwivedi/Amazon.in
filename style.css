@@ -494,22 +494,21 @@ margin-top: 1%;
 }
 .mid-size-section{
     height: 325px;
-    margin: 10px 0px 10px 0px ;
-    background-color: white;
+    width: 93%;
+    margin: auto;
 }
 .mid-box{
     float: left;
     width: 185px;
     height: 259px;
-    margin-left: 11px;
+
 }
 .pillow-image{
-    width: 280px;
-    height: 133px;
+    width: 250px;
     margin-bottom: 68px;
 }
 .pillow{
-    width: 282px;
+    width: 252px;
 }
 .vitamin{
     width: 240px;
@@ -523,7 +522,7 @@ margin-top: 1%;
 }
 .small-box{
     float: left;
-    margin-left: 12px;
+    margin-left: 13px;
 }
 .section-7-img{
     width: 262px;
@@ -895,4 +894,52 @@ footer{
   .prev:hover, .next:hover {
     border: 1px solid white;
   }
+  .slide-bar-2-parent{
+      width: 100%;
+      position: relative;
+      background-color: white;
+  }
+  .side-bar-2{
+      display: none;
+      transition: 0.6s, ease;
+  }
+  .prev2{
+    border: 1px solid rgb(221, 204, 204);
+    top: 60px;
+    left: 0;
+    height: 116px;
+    padding-top: 50px;
+    padding-left: 11px;
+    font-size: 25px;
+    opacity: 0.4;
+    font-weight: bolder;
+    width: 40px;
+    box-shadow: 0 1px 3px #888;
+  }
+  .next2{
+    right: 0;
+    border: 1px solid rgb(221, 204, 204);
+    top: 60px;
+    height: 116px;
+    padding-top: 50px;
+    padding-left: 14px;
+    font-size: 25px;
+    opacity: 0.4;
+    font-weight: bolder;
+    box-shadow: 0 1px 3px #888;
+    width: 40px;
+  }
+  .shoes{
+      width: 314px;
+  }
+  .purse{
+    width: 183px;
+    margin-bottom: 54px;
+  }
+  .prev2:hover{
+     border: 2px solid #007185;;
+  }
+  .next2:hover{
+    border: 2px solid #007185;;
+ }
 
