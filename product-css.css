@@ -53,10 +53,11 @@ hr{
 }
 .first-content{
     width: 80%;
-    height: 50px;
     margin: 6px auto;
-    padding-top: 5px;
     border: 0.1px solid black;
+}
+.first-content:hover{
+    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
 }
 .upper-p{
     font-size: 24px;
