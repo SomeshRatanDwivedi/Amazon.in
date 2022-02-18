@@ -128,7 +128,7 @@
   </div>
   <!---------------------------------------------------------------------------------------------------------------------------------------------------------->
   <!------------------------------sign in--------------------------------------------------------------------------------------------------------------------->
-  <div class="sign-in-parent">
+  <div class="sign-in-parent" id="sign" >
     <div class="sign-in-child">
       <div class="sign-in-head">
         <h2>Buy it again</h2>
@@ -147,7 +147,7 @@
     <div class="sign-in-child same">
       <div class="sign-in-head">
         <h2>Your List</h2>
-        <p><a href=""> Shopping List</a></p>
+        <p><a class="list-a" href=""> Shopping List</a></p>
       </div>
       <div class="sign-in-child-content-2">
         <p><a href="">Create a Wish List</a></p>
@@ -158,7 +158,7 @@
       </div>
 
     </div>
-    <div class="sign-in-child same">
+    <div class="sign-in-child same right-border">
       <div class="sign-in-head">
         <h2>Your Account</h2>
       </div>
@@ -211,11 +211,11 @@
         </div>
 
         <div class="upper-right">
-          <div class="flag-locator" onclick="displayCountry()" onmouseout="closeDisplay()">
+          <div class="flag-locator" onclick="displayCountry()">
             <i class="fa fa-flag" aria-hidden="true"></i>
             <i class="fa fa-sort-desc" aria-hidden="true"></i>
           </div>
-          <div class="right-locator">
+          <div class="right-locator" onclick="onSign()">
             <p>Hello, sign in</p>
             <h5>Account & Lists<i class="fa fa-sort-desc" aria-hidden="true"></i></h5>
           </div>

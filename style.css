@@ -945,8 +945,7 @@ footer{
     width: 17%;
     position: absolute;
     z-index: -1;
-    border: 1px solid red;
-    top: 8%;
+    top: 50px;
     right: 7%;
     background-color: white;
     border-radius: 5px;
@@ -992,8 +991,7 @@ footer{
 .sign-in-parent{
     width: 53%;
     position: absolute;
-    z-index: 1;
-    border: 1px solid red;
+    z-index: -1;
     top: 51px;
     right: 51px;
     height: 409px;
@@ -1057,5 +1055,14 @@ margin-top: 5px;
     color: black;
 }
 .same hr{
-    margin: 5\px;
+    margin: 5px;
+}
+.list-a{
+    margin-left: -12px;
+}
+.right-border{
+    border: 0;
+}
+.right-locator h5, p:hover{
+    cursor: pointer;
 }

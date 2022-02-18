@@ -30,7 +30,7 @@ function openNav()
     var main=document.getElementById("main");
     body[0].style.position="fixed";
     main.style.backgroundColor="black";
-    main.style.opacity="0.3";
+    //main.style.opacity="0.3";
     cross.style.width="3%";
     cross.style.zIndex="1";
     leftNav.style.width="365px";
@@ -75,9 +75,22 @@ function showSlideIndex2(n)
 }
 function displayCountry(){
     var countryDisplay=document.getElementById("country");
-    countryDisplay.style.zIndex="1";
+    if(countryDisplay.style.zIndex==="-1")
+    {
+        countryDisplay.style.zIndex="1";  
+    }
+    else{
+        countryDisplay.style.zIndex="-1" 
+    }
 }
-function closeDisplay(){
-    var countryDisplay=document.getElementById("country");
-    countryDisplay.style.zIndex="-1";
+function onSign()
+{
+    var sign=document.getElementById("sign");
+    if(sign.style.zIndex==="-1")
+    {
+        sign.style.zIndex="1";  
+    }
+    else{
+        sign.style.zIndex="-1" 
+    }
 }
