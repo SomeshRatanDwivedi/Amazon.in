@@ -73,3 +73,11 @@ function showSlideIndex2(n)
     display[slideIndex2].style.display="block";
     
 }
+function displayCountry(){
+    var countryDisplay=document.getElementById("country");
+    countryDisplay.style.zIndex="1";
+}
+function closeDisplay(){
+    var countryDisplay=document.getElementById("country");
+    countryDisplay.style.zIndex="-1";
+}

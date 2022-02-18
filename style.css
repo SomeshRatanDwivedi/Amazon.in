@@ -9,7 +9,6 @@ body{
     font-size: 14px;
     line-height: 20px;
     height: 100%;
-    
 }
 a{
     color: white;
@@ -100,7 +99,7 @@ p{
 .all:hover{
     background-color: rgb(226, 226, 226);
 }
-input{
+.input{
     float: left;
     height: 40px;
     width:calc(100% - 111px);
@@ -942,4 +941,121 @@ footer{
   .next2:hover{
     border: 2px solid #007185;;
  }
+ .country{
+    width: 17%;
+    position: absolute;
+    z-index: -1;
+    border: 1px solid red;
+    top: 8%;
+    right: 7%;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+.selected{
+    width: 90%;
+    margin: 10px auto;
+}
+.selected:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #f88f06;
+}
+.country input{
+    margin: 4px 6px 0px 2px;
+}
+.country-content-childs{
+    width: 90%;
+    margin: 10px auto;
+}
+.country-content-childs:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #f88f06;
+}
 
+.contry-footer p{
+    width: 95%;
+    margin: 5px auto;
+    font-size: 15px;
+}
+.contry-footer p i{
+    margin-right: 7px;
+}
+.change a{
+    color: blue;
+}
+.change{
+    width: 63%;
+    margin: 15px auto;
+}
+.sign-in-parent{
+    width: 53%;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid red;
+    top: 51px;
+    right: 51px;
+    height: 409px;
+    background-color: white;
+}
+.sign-in-child{
+    width: 33%;
+    border-right: 1px solid rgb(219, 216, 216);
+    height: 95%;
+    float: left;
+}
+.sign-in-head{
+    width: 90%;
+    margin: 5px auto;
+}
+.sign-in-child h2{
+    color: black;
+}
+.sign-in-child a{
+    color: #007185;
+    font-size: 17px;
+}
+.sign-in-child a:hover{
+    color: #f3c10d;
+    text-decoration: underline;
+}
+.sign-in-img{
+float: left;
+width: 33%;
+margin-top: 5px;
+}
+.sign-in-img-content{
+  float: left;
+  width: 58%;
+  margin-left: 10px;  
+  margin-top: 5px;
+}
+.sign-in-img-content p{
+    margin: 0;
+}
+.sign-in-img-content p a{
+    font-size: 14px;
+}
+.sign-in-img-content button{
+    width: 54%;
+    height: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #FFC900;
+    border: 0px;
+}
+.sign-in-img-content button:hover{
+    background-color: #e7b604;
+}
+.same p{
+    margin-top: 5px;
+    width: 80%;
+}
+.same p a{
+    font-size: 14px;
+    color: black;
+}
+.same hr{
+    margin: 5\px;
+}

@@ -81,6 +81,112 @@
 
 
   <!----------------------------------------------------------------------------------------------------------->
+  <!-----------------------------------------country----------------------------------------------------------->
+  <div class="country" id="country">
+    <div class="selected">
+      <input type="radio">
+      <label>English - EN</label>
+    </div>
+    <hr>
+    <div class="country-content">
+      <div class="country-content-childs">
+        <input type="radio">
+        <label for="">हिन्दी</label>
+      </div>
+      <div class="country-content-childs">
+        <input type="radio">
+        <label for="">தமிழ்</label>
+      </div>
+      <div class="country-content-childs">
+        <input type="radio">
+        <label for="">తెలుగు</label>
+      </div>
+      <div class="country-content-childs">
+        <input type="radio">
+        <label for="">ಕನ್ನಡ</label>
+      </div>
+      <div class="country-content-childs">
+        <input type="radio">
+        <label for="">മലയാളം</label>
+      </div>
+      <div class="country-content-childs">
+        <input type="radio">
+        <label for="">বাংলা</label>
+      </div>
+      <div class="country-content-childs">
+        <input type="radio">
+        <label for="">मराठी</label>
+      </div>
+    </div>
+    <hr>
+    <div class="contry-footer">
+      <p> <i class="fa fa-flag" aria-hidden="true"></i>You are shopping on Amazon.in</p>
+      <div class="change">
+        <a href=""> Change country/region.</a>
+      </div>
+    </div>
+  </div>
+  <!---------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <!------------------------------sign in--------------------------------------------------------------------------------------------------------------------->
+  <div class="sign-in-parent">
+    <div class="sign-in-child">
+      <div class="sign-in-head">
+        <h2>Buy it again</h2>
+        <a href="">Veiw All & Manage</a>
+      </div>
+        <div class="sign-in-img">
+          <img src="https://images-eu.ssl-images-amazon.com/images/I/41UYenF+lnL._AC_UL75_SR75,75_.jpg" alt="">
+        </div>
+        <div class="sign-in-img-content">
+          <p><a href="">Boya BYM1</a></p>
+          <p><a href="">Omnidirectional Lavali...</a></p>
+          <p><a href="#">&#8377;179.00</a></p>
+          <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="sign-in-child same">
+      <div class="sign-in-head">
+        <h2>Your List</h2>
+        <p><a href=""> Shopping List</a></p>
+      </div>
+      <div class="sign-in-child-content-2">
+        <p><a href="">Create a Wish List</a></p>
+        <p><a href="">Wish from Any Website</a></p>
+        <p><a href="">Baby Wish List</a></p>
+        <p><a href="">Discover Your Style</a></p>
+        <p><a href="">Explore Showroom</a></p>
+      </div>
+
+    </div>
+    <div class="sign-in-child same">
+      <div class="sign-in-head">
+        <h2>Your Account</h2>
+      </div>
+      <div class="sign-in-child-content-2">
+        <p><a href="">Your Account</a></p>
+        <p><a href="">Your Order</a></p>
+        <p><a href="">Your Wish List</a></p>
+        <p><a href="">Your Recommendations</a></p>
+        <p><a href="">Your Prime Membership</a></p>
+        <p><a href="">Your Prime Video</a></p>
+        <p><a href="">Your Subscribe & Save Items</a></p>
+        <p><a href="">Membership & Subscriptions</a></p>
+        <p><a href="">Your Gift Card Balance</a></p>
+        <p><a href="">Your Amazon Business Account</a></p>
+        <p><a href="">Your Seller Account</a></p>
+        <p><a href="">Manage Your Content and Devices</a></p>
+        <hr>
+        <div class="sign-in-child-footer-2">
+          <p><a href="">Switch Accounts</a></p>
+          <p><a href="">Sign out</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
   <div id="main" class="main">
     <header>
       <div class="upper-header">
@@ -98,14 +204,14 @@
           <div class="upper-mid-content">
             <button class="all">All <i class="fa fa-sort-desc" aria-hidden="true"></i></button>
           </div>
-          <input type="text">
+          <input class="input" type="text">
           <div class="upper-mid-content">
             <button class="search"><i class="fa fa-search" aria-hidden="true"></i></button>
           </div>
         </div>
 
         <div class="upper-right">
-          <div class="flag-locator">
+          <div class="flag-locator" onclick="displayCountry()" onmouseout="closeDisplay()">
             <i class="fa fa-flag" aria-hidden="true"></i>
             <i class="fa fa-sort-desc" aria-hidden="true"></i>
           </div>
@@ -372,7 +478,7 @@
           <div class="section-parts mid-size-section side-bar-2" id="side-bar-2">
             <h2>Today’s Deals <a href="#">See all deals</a></h2>
             <div class="mid-box">
-              <img  src="https://m.media-amazon.com/images/I/514ThxkXwlL._AC_SY200_.jpg" alt="">
+              <img src="https://m.media-amazon.com/images/I/514ThxkXwlL._AC_SY200_.jpg" alt="">
               <a href="#">&#8377; 169.00 - &#8377;4,406.00 </a>
             </div>
             <div class="mid-box">
