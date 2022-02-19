@@ -211,11 +211,11 @@
         </div>
 
         <div class="upper-right">
-          <div class="flag-locator" onclick="displayCountry()">
+          <div class="flag-locator" onmouseover="displayCountry()" onmouseout="closeCountry()">
             <i class="fa fa-flag" aria-hidden="true"></i>
             <i class="fa fa-sort-desc" aria-hidden="true"></i>
           </div>
-          <div class="right-locator" onclick="onSign()">
+          <div class="right-locator" onmouseover="onSign()" onmouseout="offSign()">
             <p>Hello, sign in</p>
             <h5>Account & Lists<i class="fa fa-sort-desc" aria-hidden="true"></i></h5>
           </div>

@@ -73,24 +73,17 @@ function showSlideIndex2(n)
     display[slideIndex2].style.display="block";
     
 }
+var countryDisplay=document.getElementById("country");
 function displayCountry(){
-    var countryDisplay=document.getElementById("country");
-    if(countryDisplay.style.zIndex==="-1")
-    {
-        countryDisplay.style.zIndex="1";  
-    }
-    else{
-        countryDisplay.style.zIndex="-1" 
-    }
+    countryDisplay.style.display="block";
 }
-function onSign()
-{
-    var sign=document.getElementById("sign");
-    if(sign.style.zIndex==="-1")
-    {
-        sign.style.zIndex="1";  
-    }
-    else{
-        sign.style.zIndex="-1" 
-    }
+function closeCountry(){
+    countryDisplay.style.display="none";
+}
+var sign=document.getElementById("sign");
+function onSign(){
+    sign.style.display="block";
+}
+function offSign(){
+    sign.style.display="none";
 }

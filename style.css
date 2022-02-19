@@ -944,7 +944,8 @@ footer{
  .country{
     width: 17%;
     position: absolute;
-    z-index: -1;
+    display: none;
+    z-index: 1;
     top: 50px;
     right: 7%;
     background-color: white;
@@ -991,7 +992,8 @@ footer{
 .sign-in-parent{
     width: 53%;
     position: absolute;
-    z-index: -1;
+    display: none;
+    z-index: 1;
     top: 51px;
     right: 51px;
     height: 409px;
