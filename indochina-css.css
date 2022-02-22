@@ -9,7 +9,7 @@ body{
 }
 /****************************************Upper-Header**********************************************************/
 .header{
-    width: 100%;
+    width: 1536px;
     border: 1px solid red;
     height: 75px;
     letter-spacing:1px;
@@ -30,7 +30,6 @@ body{
     margin: 1px 15px 0 0;
     padding-right: 0;
     width: 62%;
-    white-space: nowrap;
 }
 
 .upper-header-ul-li{
@@ -97,8 +96,6 @@ body{
     text-align: right;
     height: 100%;
     padding-right: 10px;
-    white-space: nowrap;
-    border: 1px solid black;
 }
 .lower-header-right-img{
     width: 27px;
@@ -116,11 +113,20 @@ body{
     position: relative;
     bottom: 14px;
 }
-@media (max-width:1268px){
-    .lower-header-right-li{
-        padding: 15px 4px;
-    }
-    .lower-header-ul-li{
-        padding: 15px 5px;
-    }
+/****************************************section*******************************************/
+section{
+    border: 1px solid black;
+}
+.sectio1-img{
+    width:35px ;
+}
+.section1{
+    background-color: #f0efeb;
+    border: 1px solid red;
+}
+.section1-content{
+    float: right;
+}
+.col-lg-4{
+    text-align: center;
 }
