@@ -34,7 +34,6 @@ body{
     margin: 1px 0px 0 0;
     padding-right: 25px;
     width: 56%;
-    border: 1px solid black;
 }
 
 .upper-header-ul-li{
@@ -82,7 +81,6 @@ body{
     width: 688px;
     height: 100%;
     float: left;
-    border: 1px solid red;
     
 }
 .lower-header-ul-li{
@@ -127,9 +125,6 @@ section{
 .red{
     background-color: #e31111;
     color: white;
-}
-.navbar{
-    border: 1px solid red;
 }
 @media (max-width:1268px)
 {
