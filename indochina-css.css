@@ -170,3 +170,102 @@ section{
         text-align: center;
     }
 }
+/**********************************************************section-2*****************************************************/
+.section2{
+    background-color: #021528;
+    padding: 50px;
+}
+.white{
+    color: whitesmoke;
+}
+.mens{
+    width: 100%;
+}
+.mid{
+    margin-top: 30px;
+}
+@media (max-width:766px){
+
+    .mid{
+   text-align: center;
+    }
+    .section4-content{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .card-body{
+        text-align: center;
+    }
+}
+.section4-content{
+    background-color: #f0efeb;
+    padding:10px 0px
+}
+@media (min-width:1200px){
+    .mens{
+        width: 80%;
+        height: 580px;
+        margin-left: 50px;
+    }
+    .section4-img{
+        margin-left: 50px;
+    }
+    .section4-content{
+        padding-top: 150px;
+    }
+    
+
+}
+.section5{
+    padding: 10px 100px;
+    text-align: center;
+}
+@media (min-width:1278px){
+    .section5{
+        padding: 10px 200px;
+    }
+}
+.back{
+    background-color: #f0efeb;
+    padding: 10px 0px;
+}
+.card-img-header{
+    width: 100%;
+    margin: auto;
+}
+.section3{
+    padding: 50px;
+}
+.section4{
+    padding: 5px 60px;
+    
+}
+
+.section4-img{
+    width: 90%;
+}
+@media (max-width:776px)
+{
+    .section5 .btn{
+        width: 100%;
+        margin: 5px;
+    }
+}
+.section6{
+    padding: 50px;
+}
+.carl{
+    background-color: #E0E0E0;
+    text-align: center;
+    padding: 100px;
+}
+.carousel-inner{
+    padding: 0 60px;
+}
+.section6 h1{
+    margin-bottom: 30px;
+}
+.section6 p{
+    padding: 0 70px;
+    margin-bottom: 50px;
+}
