@@ -267,4 +267,7 @@ section{
     .card-img-header{
         height: 250px;
     }
+    .carousel-inner{
+        padding: 0px;
+    }
 }
