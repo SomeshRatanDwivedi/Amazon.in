@@ -1,0 +1,19 @@
+<form #userlogin = "ngForm" (ngSubmit) = "addParent(userlogin.value)"  class="parent-form">
+    <h2>Child Input box:</h2>
+    <input type = "text" name = "fruit" id="inpt"  ngModel>
+    <br/>
+    <input type = "submit" value = "submit">
+ </form>
+<div class="child">
+    <h1>Child Component Change by himself</h1>
+    <ul>
+        <li *ngFor="let i of childFruits" >  {{ "child=>"+ i}} </li>
+    </ul>
+</div>
+<div class="child">
+    <h1>Child Component Change by parent</h1>
+    <ul>
+        <li *ngFor="let i of parentFruits " >  {{ "child=>"+ i}} </li>
+    </ul>
+</div>
+
