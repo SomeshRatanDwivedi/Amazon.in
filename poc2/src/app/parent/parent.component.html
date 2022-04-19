@@ -16,6 +16,10 @@
         <li *ngFor="let i of items" >  {{ "parent=>"+ i}} </li>
     </ul>
 </div>
-<app-child [parentFruits]="Pafruits" (Chifruits)="addItem($event)" ></app-child>
+<a routerLink="appchild">childcomponent </a>
+<a routerLink="excmp">excoponent</a>
+<router-outlet></router-outlet>
+
+<!--  <app-child [parentFruits]="Pafruits" (Chifruits)="addItem($event)" ></app-child>-->
  
  
